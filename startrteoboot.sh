@@ -1,0 +1,2 @@
+rteo --chain=teotest
+

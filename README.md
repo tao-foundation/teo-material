@@ -69,6 +69,15 @@ So, snapshot on 5.8M ETH chain accounts will be airdroped by ratio of
 5. PoW algorithm change : Ethash will be modified for prevent Dominant ASIC mining.
 But, if decentralized mining is guranteed , stay tuned to mining algorithms. it means there are several ASIC miner providers in market, and crowd of miners have choose mining devices then it is distributed and stay tune PoW algorithms.
 
+ # TestNet Binary 
 
+- Windows10  : [[windows 10 parity.exe |https://github.com/trustfarm/rteo/raw/master/target/release/parity.exe]]
+- Linux Ubuntu16.04 : [[UbuntuLinux parity |https://github.com/trustfarm/rteo/raw/master/target/release/parity]]
+
+ # Execution Client
+
+ - parity --chain=teotest
+
+ 
 
 

@@ -62,22 +62,21 @@ first 0.5M blocks , it will owned by Devs and Founders, over 0.5M blocks it will
     -  5M    ~        T.B.D
 
 4. AirDrop Plan : 
-So, snapshot on 5.8M ETH chain accounts will be airdroped by ratio of  
-1 ETH with 0.1   TEO , minimum funds 0.01 ETH
-1 ETC with 0.003 TEO , minimum funds 0.3  ETC
+   testnet : snapshot on 5.867M blocknumber ETH chain, 6.08M blocknumber ETC chain , each accounts will be airdroped by ratio of  
+    - 1 ETH with 0.1   TEO , minimum funds 0.01 ETH
+    - 1 ETC with 0.003 TEO , minimum funds 0.3  ETC
 
 5. PoW algorithm change : Ethash will be modified for prevent Dominant ASIC mining.
 But, if decentralized mining is guranteed , stay tuned to mining algorithms. it means there are several ASIC miner providers in market, and crowd of miners have choose mining devices then it is distributed and stay tune PoW algorithms.
 
  # TestNet Binary 
 
-- Windows10  : [windows 10 parity.exe |https://github.com/trustfarm/rteo/raw/master/target/release/parity.exe ]
-- Linux Ubuntu16.04 : [UbuntuLinux parity |https://github.com/trustfarm/rteo/raw/master/target/release/parity ]
+ - Windows10  : [ windows 10 rteo.exe | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.win10.zip ]
+ - Linux Ubuntu16.04 : [ UbuntuLinux parity | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.linux.zip ]
+
+  After download binary and unzip it
 
  # Execution Client
 
- - parity --chain=teotest
-
-
-
+ - rteo --chain=teotest
 

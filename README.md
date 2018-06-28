@@ -71,13 +71,13 @@ But, if decentralized mining is guranteed , stay tuned to mining algorithms. it 
 
  # TestNet Binary 
 
-- Windows10  : [[windows 10 parity.exe |https://github.com/trustfarm/rteo/raw/master/target/release/parity.exe]]
-- Linux Ubuntu16.04 : [[UbuntuLinux parity |https://github.com/trustfarm/rteo/raw/master/target/release/parity]]
+- Windows10  : [windows 10 parity.exe |https://github.com/trustfarm/rteo/raw/master/target/release/parity.exe ]
+- Linux Ubuntu16.04 : [UbuntuLinux parity |https://github.com/trustfarm/rteo/raw/master/target/release/parity ]
 
  # Execution Client
 
  - parity --chain=teotest
 
- 
+
 
 

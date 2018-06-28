@@ -5,5 +5,5 @@
 
 @rem d:\works\parity-dev\parity-tf1\target\release\parity  -d d:\works\teotestmain --chain=teotest --jsonrpc-port=8546 --ws-port=8547 --stratum --stratum-port=8888 --mode=active --pruning=archive --fat-db=on --tracing=on --author=0x8df9f63bddd6918590fd283969cf9f3bd14b1793 -lstat,ethash,local_store,spec=trace --log-file teo.par.main.log 
 
-parity --chain=teotest --author=0x8df9f63bddd6---solominingwalletaddress--
+parity --chain=teotest --author=0x8df9f63bddd6+++solominingwalletaddress++++   --jsonrpc-port=8546 --ws-port=8547
 

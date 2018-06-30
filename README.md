@@ -1,52 +1,71 @@
-# **TEO** (**T**rust**E**THre**O**rigin) Blockchain
+ # **TEO** (**T**rust**E**THre**O**rigin) Blockchain
+<br>
+ 
+## TEO (Proof of Work) blockchain is part of **TAO** Architectures.
 
-## TEO (PoW) blockchain is part of **TAO** Architectures.
+ ## **TAO** (Trust Astro Object) '도' '道' '到' <br>
+ is huge blockchain architecture and co-operating the heterogeneous behavior of several blockchains. <br>
+ all object in universe <br>
+   - it has its own philosophy <br>
+   - reason of existence <br>
+   - its own way of doing <br>
+   - its own lifecycle <br>
+   
+   All each blockchain have a their own properties , their own roles , strong points of functionalities, and lifecycle.<br>
+   
 
-## **TAO** (Trust Astro Object) '도' '道' '到' - all object in universe , it has its own philosophy and reason to existence and its own way of doing.
+**TAO** Archicture aim to be a space to platform for each other blockchain's connections and co-operations, finally it will more good for solve scalablity issues of blockchain.<br>
 
-## **TAO** Archicture aim to be a space to platform for each other blockchain's connections.
+   - It is not control whole things in one blockchain. <br>
+From beginning pow chain will be leading, next phase, POS and POA chain will join , for doing a they have more good functionality feilds with each independent chains.<br>
+and some other chain will be fork from each chains and they finished their roll, sink to parents chain.<br>
 
-It is not control whole things in one blockchain.
-From beginning pow chain will be leading, but next period, pos chain will join with each independent chains.
-and some other chain will be fork from each chains and they finished their roll, sink to parents chain.
+In TAO , solve the scalablity and storage and network traffic reduces by mainly concern of **lifecycle and lifetime of blockchain**.
 
-in TAO , solve the scalablity and storage and network traffic reduces, mainly concern of **lifecycle and lifetime of blockchain**.
+Besides of PoW chain, in future, more lite chain will be implemented for very lite IoT devices.<br> [Refer . 2016.10 Prevent EVM Gas DDOS Idea](https://gist.github.com/trustfarm-dev/cbbc9aa1ab76983cb7dbaa329097c1c3 "2016.10 EVM Gas DDOS Idea"):  <br>
 
-in TAO , besides of PoW chain, more lite chain will be implemented for very lite IoT devices.
-for do that, SmartContract VirtualMachine will be developed direction with tightend to fit and run on small micom cpus.
+Because current EVM cannot fit on lite devices. I think more realistic approach is divide main chain and develop lite chain and lite application machine for lite IoT devices.<br>
 
-Base idea of acheive this, Make not using highly abstacted instruction set computer, but adapt Real working cpu core instructions set. mainly considering instruction set is RISCV machine. also, OpenRISC instruction set machine is candidates.
-There's no licenses and no IP risk instruction set machine will be adapted.
+for do that, SmartContract VirtualMachine will be developed direction with tightend to fit and run on small micom cpus. <br>
 
-Second, in TAO adapt wide contents [blogging, music, UCC , forum, ...] archiving and rewarding platform.
-It will be transfer to backend blockchain will be PoS based platform. in DAPP will run on mainly PoS based platform.
+  - Base idea of acheive this, not using highly abstacted instruction set computer, but adapt real working cpu core instructions set machine. <br>
+mainly considering instruction set is [RISCV](https://riscv.org/) machine or [OpenRISC](https://openrisc.io/)  instruction set machine is good candidates.<br>
+There's no licenses and no IP risk instruction set machine will be adapted.<br>
 
-Fund states transfer method:
-Recent blockchain tech has many useful way to exchange funds to another blockchains.
-there's atomic swaps, smart contract based message driven methods, 2-way of side chaining methods.
-mainly considering methods are smart contract based fund transfer methods. also, DEX (DeCentralized Exchange) is can do by 3rd party service providers.
+- Second, in TAO adapt wide contents [blogging, music, UCC , forum, ...] archiving and rewarding platform. <br>
+First Phase of Contents platform is begin with TEO (PoW) blockchain based system, Next Phase It will adapt backend blockchain with PoS or PoA based platform. it is more strong feature do a less blocktime, transaction speed increase, save energy saving and good at DAPP services. but, Still blockchain security concerns compare than PoW blockchain.<br>
+
+- Fund states transfer method:
+Recent blockchain tech has many useful way to exchange funds to another blockchains.<br>
+    - There's atomic swaps, 
+	- Smart contract based message driven methods, 
+	- 2-way of side chaining methods.
+mainly considering methods are smart contract based fund transfer methods. <br>
+also, DEX (DeCentralized Exchange) is can do by 3rd party service providers.
 
 ### TEO is beginning of this TAO Architecture
 
-## This directory cotains TEO testnet materials archives.
+#### This directory cotains TEO testnet materials archives.
 
 TEO Blockchain Spec:
 
-1. NetworkID : 0x8888 (MainNet)
-               0x8282 (TestNet)
+1. NetworkID : 0x8888 (MainNet) ,  0x8282 (TestNet)
 
 2. PoW Algorithm : EtHash - CodeBase fork from Ethereum Parity Client.
+    It will modified in future , for more doing a GPU mining.  <br> 
+Refer EthASICPrevent Discussions [EIP-1057](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1057.md) , [EIP-969](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-969.md) . <br>
+It will Prevent some months , but not last long, current problem is ASIC provider is dominant little company in market, it will make mining centralization.
 
 3. TestNet v0.1 Lifecycle : ~ 1,000,000 blocks.
-   at 1M block height, current testnet will suiside.
+   at 1M block height, current testnet will suiside.<br>
 
-   Before 1M blocks, MainNet v0.1 and TestNet v0.2 will be launched. and then it will be more upgraded and live long.
+   Before 1M blocks, MainNet v0.1 and TestNet v0.2 will be launched. and then it will be more upgraded and live long.<br>
 
 4. Block Rewards : 5 TEO - same as original ethereum.
 
-5. SSZ Funds (쌈짓돈-Ssamzi-don(money)) : 0.5TEO
- - it is for funds for developers and used for contents owner's rewards , like a Musicoin and Steemit.
-first 0.5M blocks , it will owned by Devs and Founders, over 0.5M blocks it will be move to contents owners and community funds, ratio of 10%.
+5. SSZ Funds (쌈짓돈-Ssamzi-don(money)) : 0.5 TEO / Block
+ - it is for funds for developers and used for contents owner's rewards , like a Musicoin and Steemit.<br>
+first 0.5M blocks , it will owned by Devs and Founders, over 0.5M blocks it will be move to contents owners and community funds, ratio of 10%.<br>
 
     - eg 
     -  0     ~  0.5M  block : 0.50 [Dev] : 0     [community]
@@ -61,22 +80,52 @@ first 0.5M blocks , it will owned by Devs and Founders, over 0.5M blocks it will
     -  4.5M  ~  5M    block : 0.05 [Dev] : 0.45  [community]
     -  5M    ~        T.B.D
 
-4. AirDrop Plan : 
-   testnet : snapshot on 5.867M blocknumber ETH chain, 6.08M blocknumber ETC chain , each accounts will be airdroped by ratio of  
+<br>
+Community Funds will be used with reward for contents creator, contents reviewer, contents querators.<br>
+More detailed consensus will be updated, feedback from communities.<br>
+<br>
+Current Concept of Contents Rewards is for <br> 
+
+| Creator  | Editor(Moderator) | Querator(Promotor) | Reader | Reserved(T.B.D) |
+| :------------ | :------------ | :------------ | :------------ |:----------|
+| 70%             | 10%            | 5%              | 1%              | 14%        |
+<br>
+Above table will be changed by community feedbacks and If contents rewards funds is shorten that what consuming, unit Contents Rewards will be shrink down to fit in Community Funds.
+
+
+ ### 4. AirDrop Plan : 
+-   Testnet : snapshot on 5.867M blocknumber ETH chain, 6.08M blocknumber ETC chain , each accounts will be airdroped by ratio of  <br>
+
     - 1 ETH with 0.1   TEO , minimum funds 0.01 ETH
     - 1 ETC with 0.003 TEO , minimum funds 0.3  ETC
 
-5. PoW algorithm change : Ethash will be modified for prevent Dominant ASIC mining.
-But, if decentralized mining is guranteed , stay tuned to mining algorithms. it means there are several ASIC miner providers in market, and crowd of miners have choose mining devices then it is distributed and stay tune PoW algorithms.
+ ### 5. PoW algorithm change : Ethash will be modified for prevent Dominant ASIC mining.
 
- # TestNet Binary 
+Refer above EIP-969 , EIP-1057 case .
+If decentralized mining is guranteed , stay tuned to mining algorithms. <br>
+It means there are several ASIC miner providers in market, and crowd of miners have choose mining devices then it is distributed and stay tune PoW algorithms.
+
+ ### 6. TestNet Binary 
 
  - Windows10  : [ windows 10 rteo.exe | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.win10.zip ]
  - Linux Ubuntu16.04 : [ UbuntuLinux parity | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.linux.zip ]
 
   After download binary and unzip it
 
- # Execution Client
+ ### 7. Execution Client
 
  - rteo --chain=teotest
 
+ ### 8. Snapshot information
+
+ - ETH snapshot blockheight : 5867000 , with 0.01 ETH minimum balanced accounts.
+
+   Total Accounts snapshoted : 5,271,357 accounts.<br>
+   You can check all snapshoted accounts information transparently with Text Editor after  unzip <br>
+   [ETHSnapshot  .zip.001 ~ 009](https://github.com/trustfarm/teo-material/tree/master/snapshot-output) <br>
+   
+ - ETC snapshot blockheight : 6080000 , with 0.3 ETC minimum balanced accounts.
+
+   Total Accounts snapshoted : 251,563 accounts.  It has burned DAO [HackersAccounts](https://gastracker.io/addr/0x5e8f0e63e7614c47079a41ad4c37be7def06df5a)
+   You can check all snapshoted accounts information transparently with Text Editor after  gunzip <br>
+   [ETCSnapshot  .gz](https://github.com/trustfarm/teo-material/blob/master/snapshot-output/ETC-6080000-0_3etc.json.gz) <br>

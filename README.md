@@ -33,7 +33,13 @@ mainly considering instruction set is [RISCV](https://riscv.org/) machine or [Op
 There's no licenses and no IP risk instruction set machine will be adapted.<br>
 
 - Second, in TAO adapt wide contents [blogging, music, UCC , forum, ...] archiving and rewarding platform. <br>
-First Phase of Contents platform is begin with TEO (PoW) blockchain based system, Next Phase It will adapt backend blockchain with PoS or PoA based platform. it is more strong feature do a less blocktime, transaction speed increase, save energy saving and good at DAPP services. but, Still blockchain security concerns compare than PoW blockchain.<br>
+First Phase of Contents platform is begin with TEO (PoW) blockchain based system, Next Phase It will adapt backend blockchain with PoS or PoA based platform.<br> 
+it is more strong feature do a less blocktime, transaction speed increase, save energy saving and good at DAPP services. <br>
+But, Still blockchain security concerns compare than PoW blockchain.<br>
+Idea of solving security vulnarabilities and Richier more Richier , Poorer more Poorer problem on PoS Based system.<br>
+  - First approach is min-max stake balancing and more large counts of validator nodes, 
+  - and wide spread and distribution of validator nodes which geo-location of physical nodes.<br> 
+    * [Refer More Securen of DPoS Network Consensus](https://github.com/trustfarm/dev-documents/blob/master/HowToMake-DPOS-consensus-network-more-secure.md "DPOS Security Consensus")<br>
 
 - Fund states transfer method:
 Recent blockchain tech has many useful way to exchange funds to another blockchains.<br>

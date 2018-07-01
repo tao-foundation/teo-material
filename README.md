@@ -118,9 +118,32 @@ It means there are several ASIC miner providers in market, and crowd of miners h
 
   After download binary and unzip it
 
- ### 7. Execution Client
+ ### 7. Execution Client and Solo Mining
 
- - rteo --chain=teotest
+  option 1 : you can start teotest chain with **solo mining node** with rpcport **8546**<br>
+  ```
+  rteo --chain=teotest --author=YOUR_WALLET_ADDRESS --jsonrpc-port=8546 --ws-port=8547
+  ```
+  <br>
+
+  option 2 : you can start teotest chain with simple client node , **no solo mining** , default rpcport is **8545** <br>
+  ```
+  rteo --chain=teotest
+  ```
+  <br>
+
+  ##### Execute miner
+
+  - ethminer Nvidia [Ethminer Tested Version - 0.14.0.dev1](https://github.com/trustfarm/teo-material/tree/master/ethminer-testver "ethminer tested ver") 
+  ```
+  ethminer -U -F 127.0.0.1:8546 --cuda-devices 1
+  ```
+  
+  - Claymore Dual Miner [AMD+Nvidia] [DualMiner Tested Version - 11.7](https://mega.nz/#F!O4YA2JgD!n2b4iSHQDruEsYUvTQP5_w "Dualminer Mega archive")
+  ```
+  EthDcrMiner64.exe -allcoins 1 -epool http://127.0.0.1:8546 -etht 1000
+  ```
+
 
  ### 8. Snapshot information
 

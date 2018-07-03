@@ -1,0 +1,1 @@
+node teo-snapshot-parser.js ..\ETH-5867000-0_01wei.json 0 0.1 10000000 > ETH-5867000-converted.json

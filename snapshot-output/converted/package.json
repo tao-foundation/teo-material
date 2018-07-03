@@ -1,0 +1,31 @@
+{
+  "name": "teo-snapshot",
+  "version": "1.0.0",
+  "description": "TEO Project ETH snapshot script",
+  "main": "teo-snapshot-parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trustfarm",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.3.2",
+    "bignumber.js": "^7.0.1",
+    "event-stream": "^3.3.4",
+    "json-stream": "^1.0.0",
+    "moment": "^2.22.0",
+    "mongodb": "^3.0.7",
+    "system-sleep": "*"
+  },
+  "keywords": [
+    "ethereum",
+    "nodejs",
+    "TEO",
+    "TAO",
+    "ContentsPlatform Blockchain",
+    "TAM",
+    "TrustApplicationMachine",
+    "IoEchain"
+  ],
+  "readmeFilename": "README.md"
+}

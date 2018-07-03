@@ -111,12 +111,16 @@ Refer above EIP-969 , EIP-1057 case .
 If decentralized mining is guranteed , stay tuned to mining algorithms. <br>
 It means there are several ASIC miner providers in market, and crowd of miners have choose mining devices then it is distributed and stay tune PoW algorithms.
 
- ### 6. TestNet Binary 
+ ### 6. TestNet Binary and TEO Explorer for TestNet
 
- - Windows10  : [ windows 10 rteo.exe | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.win10.zip ]
- - Linux Ubuntu16.04 : [ UbuntuLinux parity | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.linux.zip ]
+ - Windows10  : [ windows 10 rteo.exe | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.win10.zip ]<br>
+ - Linux Ubuntu16.04 : [ UbuntuLinux parity | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.linux.zip ]<br>
 
-  After download binary and unzip it
+    After download binary and unzip it <br>
+
+ - **TEO TestNet Explorer** <br>
+   **http://teoexplorer.tao.ac**
+   <br>
 
  ### 7. Execution Client and Solo Mining
 

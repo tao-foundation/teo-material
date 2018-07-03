@@ -3,10 +3,9 @@
  
 ## TEO (Proof of Work) blockchain is part of **TAO** Architectures.
 
- ### TEO Testnet Snapshot Extraction information 
+ ### TEO Testnet Snapshot Extraction and Converted information 
  
  <br>
-
 
  - ETH snapshot blockheight : 5867000 , with 0.01 ETH minimum balanced accounts.
 
@@ -62,7 +61,7 @@
    [snapshot-output/converted](https://github.com/trustfarm/teo-material/blob/master/snapshot-output/converted)
 
    <br>
-   
+
    ```
    npm install
    node teo-snapshot-parser.js ..\ETH-5867000-0_01wei.json 0 0.1 10000000 > ETH-5867000-converted.json

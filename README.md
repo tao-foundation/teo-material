@@ -119,7 +119,7 @@ It means there are several ASIC miner providers in market, and crowd of miners h
     After download binary and unzip it <br>
 
  - **TEO TestNet Explorer** <br>
-   **http://teoexplorer.tao.ac**
+   **http://teoexplorer.tao.ac**   , and github [issues](https://github.com/trustfarm/teo-explorer/issues)
    <br>
 
  ### 7. Execution Client and Solo Mining

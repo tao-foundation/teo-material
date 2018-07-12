@@ -49,12 +49,32 @@ Recent blockchain tech has many useful way to exchange funds to another blockcha
 mainly considering methods are smart contract based fund transfer methods. <br>
 also, DEX (DeCentralized Exchange) is can do by 3rd party service providers.
 
-### TEO is beginning of this TAO Architecture
+## TEO is beginning of this TAO Architecture - [TAO.Foundation](https://tao.foundation)
 
 
-### TEO Testnet Development/Community Bounty Program
-You can refer documents directory , [TEO Testnet Bounty Program - V0.3](https://github.com/trustfarm/teo-material/blob/master/documents/TEO-Airdrop-BountyProgram-v0.3.pdf "TEO Testnet Bounty Program v0.3")
+### 1) TEO Testnet Development/Community Bounty Program
+You can refer documents directory , [**TEO Testnet Bounty Program - V0.3**](https://github.com/trustfarm/teo-material/blob/master/documents/TEO-Airdrop-BountyProgram-v0.3.pdf "TEO Testnet Bounty Program v0.3")
 <br>
+and any recommendation on bounty program , you can use github [issues](https://github.com/trustfarm/teo-material/issues)
+<br>
+### 2) TEO Explorer for TestNet
+ 
+  **https://teoexplorer.tao.ac**   , and github [issues](https://github.com/trustfarm/teo-explorer/issues)
+   <br>
+
+### 3) TEO Wallet for TestNet
+ 
+  **https://wallet.tao.ac**   , and github [issues](https://github.com/trustfarm/taowallet/issues)
+   <br>
+
+### 4) TEO TestNet Binary download link (current v0.2) 
+
+ - Windows10  : [ windows 10 rteo.exe | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.win10.zip ]<br>
+ - Linux Ubuntu16.04 : [ UbuntuLinux parity | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.linux.zip ]<br>
+
+    After download binary and unzip it <br>
+
+
 
 #### This directory cotains TEO testnet materials archives.
 

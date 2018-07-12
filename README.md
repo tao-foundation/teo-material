@@ -51,6 +51,11 @@ also, DEX (DeCentralized Exchange) is can do by 3rd party service providers.
 
 ### TEO is beginning of this TAO Architecture
 
+
+### TEO Testnet Development/Community Bounty Program
+You can refer documents directory , [TEO Testnet Bounty Program - V0.3](https://github.com/trustfarm/teo-material/blob/master/documents/TEO-Airdrop-BountyProgram-v0.3.pdf "TEO Testnet Bounty Program v0.3")
+<br>
+
 #### This directory cotains TEO testnet materials archives.
 
 TEO Blockchain Spec:

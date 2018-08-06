@@ -12,7 +12,16 @@
    - its own lifecycle <br>
    
    All each blockchain have a their own properties , their own roles , strong points of functionalities, and lifecycle.<br>
-   
+
+### **Forum :: Latest Bounty and Discussion information**
+You can more updated information and disscussion freely on [TAO Forum :: https://forum.tao.foundation](https://forum.tao.foundation "TAO Forum").
+<br>
+Please Join TAO Forum and share you opinions.
+
+**We are ready to welcome and enough bounty programs for contributors.**
+
+<br>
+
 
 **TAO** Archicture aim to be a space to platform for each other blockchain's connections and co-operations, finally it will more good for solve scalablity issues of blockchain.<br>
 
@@ -234,3 +243,35 @@ It means there are several ASIC miner providers in market, and crowd of miners h
    npm install
    node teo-snapshot-parser.js ..\ETH-5867000-0_01wei.json 0 0.1 10000000 > ETH-5867000-converted.json
    ```
+   <br>
+
+ #### Converted Offline TX Airdrop Scripts run with nodsjs
+
+<br>
+  ETH Airdrop Offline TX archive <br>
+   [eth-5867000-offtx-list.zip.001~027](https://github.com/trustfarm/teo-material/blob/master/snapshot-output/converted/offtx-send")<br>
+
+<br>
+  ETC Airdrop Offline TX archive <br>
+   [etc-6080000-offtx-list.zip](https://github.com/trustfarm/teo-material/blob/master/snapshot-output/converted/offtx-send/etc-6080000-offtx-list.zip) <br>
+
+<br>
+
+  
+   ```
+   # install and run
+   npm install
+   node teo-snapshot-offtxsend.js eth-5867000-offtx-list.json 0 1000000 log.offtxsend.txt
+
+   # node teo-snapshot-offtxsend.js [offtx-list json file]  [start tx nonce] [end tx nonce] [output log file]
+   ```
+  -- if there's sending error, you can retry it from errored position , and divide it with several times.<br>
+  -- it is recommend multiple sending by several node servers. 
+
+You can check your accounts, how many TEOt has airdroped, we prepared 2 kinds of  explorers for cross-checking.
+<br>
+[https://teoexplorer.tao.ac] , <br>
+[https://explorer.tao.ac]
+
+Please check and Review our projects and join.
+

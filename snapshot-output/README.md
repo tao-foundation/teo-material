@@ -67,3 +67,35 @@
    npm install
    node teo-snapshot-parser.js ..\ETH-5867000-0_01wei.json 0 0.1 10000000 > ETH-5867000-converted.json
    ```
+<br>
+
+
+ #### Converted Offline TX Airdrop Scripts run with nodsjs
+
+<br>
+  ETH Airdrop Offline TX archive <br>
+   [eth-5867000-offtx-list.zip.001~027](https://github.com/trustfarm/teo-material/blob/master/snapshot-output/converted/offtx-send")<br>
+
+<br>
+  ETC Airdrop Offline TX archive <br>
+   [etc-6080000-offtx-list.zip](https://github.com/trustfarm/teo-material/blob/master/snapshot-output/converted/offtx-send/etc-6080000-offtx-list.zip) <br>
+
+<br>
+
+  
+   ```
+   # install and run
+   npm install
+   node teo-snapshot-offtxsend.js eth-5867000-offtx-list.json 0 1000000 log.offtxsend.txt
+
+   # node teo-snapshot-offtxsend.js [offtx-list json file]  [start tx nonce] [end tx nonce] [output log file]
+   ```
+  -- if there's sending error, you can retry it from errored position , and divide it with several times. <br>
+  -- it is recommend multiple sending by several node servers. 
+
+You can check your accounts, how many TEOt has airdroped, we prepared 2 kinds of  explorers for cross-checking.
+<br>
+[https://teoexplorer.tao.ac] , <br>
+[https://explorer.tao.ac]
+
+Please check and Review our projects and join.

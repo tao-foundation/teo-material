@@ -60,50 +60,93 @@ also, DEX (DeCentralized Exchange) is can do by 3rd party service providers.
 
 ## TEO is beginning of this TAO Architecture - [TAO.Foundation](https://tao.foundation)
 
+### 1) TEO Mainnet Updates.
+TEO Has On Live 00:12:25 +0900 AM 1st Nov, 2018.
+You can check 1st Block in [Explorer](https://explorer.tao.foundation/block/1)
 
-### 1) TEO Testnet Development/Community Bounty Program
-You can refer documents directory , [**TEO Testnet Bounty Program - V0.3**](https://github.com/trustfarm/teo-material/blob/master/documents/TEO-Airdrop-BountyProgram-v0.3.pdf "TEO Testnet Bounty Program v0.3")
 <br>
-and any recommendation on bounty program , you can use github [issues](https://github.com/trustfarm/teo-material/issues)
+
+### 2) ETH/ETC Airdrop Snapshot Finished.
+
+  - ETH 6660000 Block height Snapshot has finished. [You Can Snapshot file down and check text search](/20181110-Mainnet-ETH-ETC-Snapshot/ETC-6880000-snapshot)
+  - ETC 6880000 Block height Snapshot has finished. [You Can Snapshot file down and check text search](20181110-Mainnet-ETH-ETC-Snapshot/ETH-6660000-snapshot)
+
+  - Conversion Rate and min-Max Boundaries
+    
+    0.05 ETH <= ETH Balance <= 2000 ETH
+    1 ETC <= ETC Balance <= 66666 ETC
+
+    ETH Ratio (similar in ETC)
+    - 0 ~ 10 : 0.5x => 5 TEO Max.
+    - 10 ~ 100 : 0.4x => 5TEO + 36TEO = 41 TEO Max.
+    - 100 ~ 1000 : 0.3x => 5TEO + 36TEO + 270TEO = 311 TEO Max.
+    - 1000 ~ 2000 : 0.2x => 5TEO + 36TEO + 270TEO + 200TEO = 511 TEO Max.
+    - 2000 ~ : 0x => No Airdrop.
+
+**In case of exchange who listing TEO , We will negotiate same calculation on their customer funds and bounty for funds for customer airdrop.**
+
 <br>
-### 2) TEO Explorer for TestNet
+
+### 3) TEO Has Adapted TETHashV1 (Anti-ETH Asic) Algorithms.
+
+    **TETHashV1** algorithm is most parts based on [ETHASH]().
+    [EIP-1485 PR](https://github.com/ethereum/EIPs/blob/7336cceac6c997252299a463ffe896a3414c479b/EIPS/eip-1485.md) on Ethereum EIP Proposal.
+
+    You can refer another story in [here tao forum](https://forum.tao.foundation/topic/27/teo-premainnet-using-tethashv1-now-pre-live)
+
+    On This time, PoW algorithm change to newer one, it needs crypto analysis and long time verification time and optimization time. 
+    it's not suitable for prevent ASIC , so late!
+
+However, in case of TEthashV1 (Trust Ethash Version1) has most of things are based on ethash, which is verified several years.
+In Ethash MIX FNV part uses deprecated implementation (FNV-0) hash algorithm , So, if this is changed then more strong PoW algorithm based on ETHASH. 
+
+Clearly, make obsolete the current ASIC miners too.
+
+And, I also researching FPGA Mining, recent days of synthesizer (eg. Xilinx or Altera) it has tremendous optimization options and great synthesis abilities, So, Above reasons, it may be regular small parts of algorithm changing is more good for resist centralized mining and prevent ASICs.
+
+In case of ASIC, at least 6 months needs, redesign and consumer products delivery.
+
+Another My opinion on Ethash , is remove 64 rounds of Mix to decrease to 32 rounds.
+decrease DAG Size or limit Max DAG Size, sustain current Memory accessing bw.
+
+So, then cheaper or some years ago GPU also effective hash on PoW, and many miners can participates mining.
+
+### 4) TEO Mainnet Pools and Explorer , Wallet and Own Developed Miner
+
+Now, Above TethashV1 is appied on 
+  - [TEO Mainnet Mining POOL1](https://pool1.tao.foundation) , [POOL2](https://pool1.tao.foundation)
+  - [TEO Miner](https://github.com/tao-foundation/teominer/releases) and 
+  - [rTEO parity forked client](https://github.com/tao-foundation/rteo)
+  - [Tethashv1-Go-ethereum](https://github.com/tao-foundation/tethashv1-geth), 
+  - [Open-TEO-Pool](https://github.com/tao-foundation/open-teo-pool)
+  - [go-wrapper API TethashV1 for Pool](https://github.com/tao-foundation/tethashv1)
+  - [TethashV1 cpp library (chfast/MariusVanDerWijden/ethash)](https://github.com/tao-foundation/teominer/tree/master/libethash)  
+        it is insided in teominer/libethash
+
+ also patched to new TEthashV1 algorithms for go-ethash wrapper , cpp ethash library.
+
+And Explorer's are in 
+  **https://teoexplorer.tao.foundation**  
+  <br>
+
+### 3) TEO Wallet for Mainnet
  
-  **https://teoexplorer.tao.ac**   , and github [issues](https://github.com/trustfarm/teo-explorer/issues)
+  **https://wallet.tao.foundation**   ,  it is compatible with **MyEtherWallet** and **Trezor** Wallet.
    <br>
-
-### 3) TEO Wallet for TestNet
- 
-  **https://wallet.tao.ac**   , and github [issues](https://github.com/trustfarm/taowallet/issues)
-   <br>
-
-### 4) TEO TestNet Binary download link (current v0.2) 
-
- - Windows10  : [ windows 10 rteo.exe | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.win10.zip ]<br>
- - Linux Ubuntu16.04 : [ UbuntuLinux parity | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.linux.zip ]<br>
-
-    After download binary and unzip it <br>
-
-
 
 #### This directory cotains TEO testnet materials archives.
 
-TEO Blockchain Spec:
+### 4) TEO Blockchain Spec:
 
-1. NetworkID : 0x8888 (MainNet) ,  0x8282 (TestNet)
+1. NetworkID : 0x8288 (MainNet) ,  0x8282 (TestNet)
 
-2. PoW Algorithm : EtHash - CodeBase fork from Ethereum Parity Client.
+2. PoW Algorithm : TEtHashV1 - New ANTI-ETHASIC , More Strong ETHASH algorithm.
     It will modified in future , for more doing a GPU mining.  <br> 
-Refer EthASICPrevent Discussions [EIP-1057](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1057.md) , [EIP-969](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-969.md) . <br>
-It will Prevent some months , but not last long, current problem is ASIC provider is dominant little company in market, it will make mining centralization.
-
-3. TestNet v0.1 Lifecycle : ~ 1,000,000 blocks.
-   at 1M block height, current testnet will suiside.<br>
-
-   Before 1M blocks, MainNet v0.1 and TestNet v0.2 will be launched. and then it will be more upgraded and live long.<br>
 
 4. Block Rewards : 5 TEO - same as original ethereum.
 
-5. SSZ Funds (쌈짓돈-Ssamzi-don(money)) : 0.5 TEO / Block
+5. SSZ Funds (쌈짓돈-Ssamzi-don(money)) : 0.5 TEO / Block  [**SSZ Funds** for Community , Following will be changed for more familiar with Community Activation and Marketing]
+ 
  - it is for funds for developers and used for contents owner's rewards , like a Musicoin and Steemit.<br>
 first 0.5M blocks , it will owned by Devs and Founders, over 0.5M blocks it will be move to contents owners and community funds, ratio of 10%.<br>
 
@@ -131,6 +174,39 @@ Current Concept of Contents Rewards is for <br>
 | 70%             | 10%            | 5%              | 1%              | 14%        |
 <br>
 Above table will be changed by community feedbacks and If contents rewards funds is shorten that what consuming, unit Contents Rewards will be shrink down to fit in Community Funds.
+
+
+
+## OLD TESTNET Materials.
+
+### 4) TEO TestNet Binary download link (current v0.2) 
+
+
+
+
+### 1) TEO Testnet Development/Community Bounty Program
+You can refer documents directory , [**TEO Testnet Bounty Program - V0.3**](https://github.com/trustfarm/teo-material/blob/master/documents/TEO-Airdrop-BountyProgram-v0.3.pdf "TEO Testnet Bounty Program v0.3")
+<br>
+and any recommendation on bounty program , you can use github [issues](https://github.com/trustfarm/teo-material/issues)
+<br>
+### 2) TEO Explorer for TestNet
+ 
+  **https://teoexplorer.tao.ac**   , and github [issues](https://github.com/trustfarm/teo-explorer/issues)
+   <br>
+
+### 3) TEO Wallet for TestNet
+ 
+  **https://wallet.tao.ac**   , and github [issues](https://github.com/trustfarm/taowallet/issues)
+   <br>
+
+### 4) TEO TestNet Binary download link (current v0.2) 
+
+ - Windows10  : [ windows 10 rteo.exe | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.win10.zip ]<br>
+ - Linux Ubuntu16.04 : [ UbuntuLinux parity | https://github.com/trustfarm/rteo/raw/master/target/release/rteo.linux.zip ]<br>
+
+    After download binary and unzip it <br>
+
+
 
 
  ### 4. AirDrop Plan : 

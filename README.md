@@ -57,7 +57,7 @@ You can check 1st Block in [Explorer](https://explorer.tao.foundation/block/1)
 
 ### 3) TEO Has Adapted TETHashV1 (Anti-ETH Asic) Algorithms.
 
- **TETHashV1** algorithm is most parts based on [ETHASH]().
+ **TETHashV1** algorithm is most parts based on [ETHASH](https://github.com/ethereum/wiki/wiki/Ethash).
  [**EIP-1485 PR**](https://github.com/ethereum/EIPs/blob/7336cceac6c997252299a463ffe896a3414c479b/EIPS/eip-1485.md) on Ethereum EIP Proposal.
  You can refer another story in [here tao forum](https://forum.tao.foundation/topic/27/teo-premainnet-using-tethashv1-now-pre-live)
 

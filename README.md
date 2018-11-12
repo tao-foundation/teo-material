@@ -25,38 +25,6 @@ Please Join TAO Forum and share you opinions.
 
 **TAO** Archicture aim to be a space to platform for each other blockchain's connections and co-operations, finally it will more good for solve scalablity issues of blockchain.<br>
 
-   - It is not control whole things in one blockchain. <br>
-From beginning pow chain will be leading, next phase, POS and POA chain will join , for doing a they have more good functionality feilds with each independent chains.<br>
-and some other chain will be fork from each chains and they finished their roll, sink to parents chain.<br>
-
-In TAO , solve the scalablity and storage and network traffic reduces by mainly concern of **lifecycle and lifetime of blockchain**.
-
-Besides of PoW chain, in future, more lite chain will be implemented for very lite IoT devices.<br> [Refer . 2016.10 Prevent EVM Gas DDOS Idea](https://gist.github.com/trustfarm-dev/cbbc9aa1ab76983cb7dbaa329097c1c3 "2016.10 EVM Gas DDOS Idea"):  <br>
-
-Because current EVM cannot fit on lite devices. I think more realistic approach is divide main chain and develop lite chain and lite application machine for lite IoT devices.<br>
-
-for do that, SmartContract VirtualMachine will be developed direction with tightend to fit and run on small micom cpus. <br>
-
-  - Base idea of acheive this, not using highly abstacted instruction set computer, but adapt real working cpu core instructions set machine. <br>
-mainly considering instruction set is [RISCV](https://riscv.org/) machine or [OpenRISC](https://openrisc.io/)  instruction set machine is good candidates.<br>
-There's no licenses and no IP risk instruction set machine will be adapted.<br>
-
-- Second, in TAO adapt wide contents [blogging, music, UCC , forum, ...] archiving and rewarding platform. <br>
-First Phase of Contents platform is begin with TEO (PoW) blockchain based system, Next Phase It will adapt backend blockchain with PoS or PoA based platform.<br> 
-it is more strong feature do a less blocktime, transaction speed increase, save energy saving and good at DAPP services. <br>
-But, Still blockchain security concerns compare than PoW blockchain.<br>
-Idea of solving security vulnarabilities and Richier more Richier , Poorer more Poorer problem on PoS Based system.<br>
-  - First approach is min-max stake balancing and more large counts of validator nodes, 
-  - and wide spread and distribution of validator nodes which geo-location of physical nodes.<br> 
-    * [Refer More Securen of DPoS Network Consensus](https://github.com/trustfarm/dev-documents/blob/master/HowToMake-DPOS-consensus-network-more-secure.md "DPOS Security Consensus")<br>
-
-- Fund states transfer method:
-Recent blockchain tech has many useful way to exchange funds to another blockchains.<br>
-    - There's atomic swaps, 
-	- Smart contract based message driven methods, 
-	- 2-way of side chaining methods.
-mainly considering methods are smart contract based fund transfer methods. <br>
-also, DEX (DeCentralized Exchange) is can do by 3rd party service providers.
 
 ## TEO is beginning of this TAO Architecture - [TAO.Foundation](https://tao.foundation)
 
@@ -89,13 +57,12 @@ You can check 1st Block in [Explorer](https://explorer.tao.foundation/block/1)
 
 ### 3) TEO Has Adapted TETHashV1 (Anti-ETH Asic) Algorithms.
 
-    **TETHashV1** algorithm is most parts based on [ETHASH]().
-    [EIP-1485 PR](https://github.com/ethereum/EIPs/blob/7336cceac6c997252299a463ffe896a3414c479b/EIPS/eip-1485.md) on Ethereum EIP Proposal.
+ **TETHashV1** algorithm is most parts based on [ETHASH]().
+ [**EIP-1485 PR**](https://github.com/ethereum/EIPs/blob/7336cceac6c997252299a463ffe896a3414c479b/EIPS/eip-1485.md) on Ethereum EIP Proposal.
+ You can refer another story in [here tao forum](https://forum.tao.foundation/topic/27/teo-premainnet-using-tethashv1-now-pre-live)
 
-    You can refer another story in [here tao forum](https://forum.tao.foundation/topic/27/teo-premainnet-using-tethashv1-now-pre-live)
-
-    On This time, PoW algorithm change to newer one, it needs crypto analysis and long time verification time and optimization time. 
-    it's not suitable for prevent ASIC , so late!
+ On This time, PoW algorithm change to newer one, it needs crypto analysis and long time verification time and optimization time. 
+ it's not suitable for prevent ASIC , so late!
 
 However, in case of TEthashV1 (Trust Ethash Version1) has most of things are based on ethash, which is verified several years.
 In Ethash MIX FNV part uses deprecated implementation (FNV-0) hash algorithm , So, if this is changed then more strong PoW algorithm based on ETHASH. 
@@ -129,14 +96,14 @@ And Explorer's are in
   **https://teoexplorer.tao.foundation**  
   <br>
 
-### 3) TEO Wallet for Mainnet
+### 5) TEO Wallet for Mainnet
  
   **https://wallet.tao.foundation**   ,  it is compatible with **MyEtherWallet** and **Trezor** Wallet.
    <br>
 
 #### This directory cotains TEO testnet materials archives.
 
-### 4) TEO Blockchain Spec:
+### 6) TEO Blockchain Spec:
 
 1. NetworkID : 0x8288 (MainNet) ,  0x8282 (TestNet)
 
@@ -174,6 +141,42 @@ Current Concept of Contents Rewards is for <br>
 | 70%             | 10%            | 5%              | 1%              | 14%        |
 <br>
 Above table will be changed by community feedbacks and If contents rewards funds is shorten that what consuming, unit Contents Rewards will be shrink down to fit in Community Funds.
+
+
+## More on **TAO** Archicture
+
+   - It is not control whole things in one blockchain. <br>
+From beginning pow chain will be leading, next phase, POS and POA chain will join , for doing a they have more good functionality feilds with each independent chains.<br>
+and some other chain will be fork from each chains and they finished their roll, sink to parents chain.<br>
+
+In TAO , solve the scalablity and storage and network traffic reduces by mainly concern of **lifecycle and lifetime of blockchain**.
+
+Besides of PoW chain, in future, more lite chain will be implemented for very lite IoT devices.<br> [Refer . 2016.10 Prevent EVM Gas DDOS Idea](https://gist.github.com/trustfarm-dev/cbbc9aa1ab76983cb7dbaa329097c1c3 "2016.10 EVM Gas DDOS Idea"):  <br>
+
+Because current EVM cannot fit on lite devices. I think more realistic approach is divide main chain and develop lite chain and lite application machine for lite IoT devices.<br>
+
+for do that, SmartContract VirtualMachine will be developed direction with tightend to fit and run on small micom cpus. <br>
+
+  - Base idea of acheive this, not using highly abstacted instruction set computer, but adapt real working cpu core instructions set machine. <br>
+mainly considering instruction set is [RISCV](https://riscv.org/) machine or [OpenRISC](https://openrisc.io/)  instruction set machine is good candidates.<br>
+There's no licenses and no IP risk instruction set machine will be adapted.<br>
+
+- Second, in TAO adapt wide contents [blogging, music, UCC , forum, ...] archiving and rewarding platform. <br>
+First Phase of Contents platform is begin with TEO (PoW) blockchain based system, Next Phase It will adapt backend blockchain with PoS or PoA based platform.<br> 
+it is more strong feature do a less blocktime, transaction speed increase, save energy saving and good at DAPP services. <br>
+But, Still blockchain security concerns compare than PoW blockchain.<br>
+Idea of solving security vulnarabilities and Richier more Richier , Poorer more Poorer problem on PoS Based system.<br>
+  - First approach is min-max stake balancing and more large counts of validator nodes, 
+  - and wide spread and distribution of validator nodes which geo-location of physical nodes.<br> 
+    * [Refer More Securen of DPoS Network Consensus](https://github.com/trustfarm/dev-documents/blob/master/HowToMake-DPOS-consensus-network-more-secure.md "DPOS Security Consensus")<br>
+
+- Fund states transfer method:
+Recent blockchain tech has many useful way to exchange funds to another blockchains.<br>
+    - There's atomic swaps, 
+	- Smart contract based message driven methods, 
+	- 2-way of side chaining methods.
+mainly considering methods are smart contract based fund transfer methods. <br>
+also, DEX (DeCentralized Exchange) is can do by 3rd party service providers.
 
 
 

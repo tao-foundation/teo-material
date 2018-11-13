@@ -59,11 +59,14 @@ You can check 1st Block in [Explorer](https://explorer.tao.foundation/block/1)
     - 66666			0				0
 
    **How to Check and Verify**
-    in [20181110-Mainnet-ETH-ETC-Snapshot/ETC-6880000-snapshot/converted/](/20181110-Mainnet-ETH-ETC-Snapshot/ETC-6880000-snapshot/converted/) ,
-    [20181110-Mainnet-ETH-ETC-Snapshot/ETH-6660000-snapshot/converted/](/20181110-Mainnet-ETH-ETC-Snapshot/ETH-6660000-snapshot/converted/)  
-    directory, 
-    you can download converted files in zip.
-    file format is looks like this::
+       
+   - [20181110-Mainnet-ETH-ETC-Snapshot/ETC-6880000-snapshot/converted/](/20181110-Mainnet-ETH-ETC-Snapshot/ETC-6880000-snapshot/converted/) ,
+    
+   - [20181110-Mainnet-ETH-ETC-Snapshot/ETH-6660000-snapshot/converted/](/20181110-Mainnet-ETH-ETC-Snapshot/ETH-6660000-snapshot/converted/)  
+    
+   directory, 
+   you can download converted files in zip.
+   file format is looks like this::
     
 ```
      	"4fe9367ef5dad459ae9cc4265c69b1b10a4e1288": { "balance" : "1034f1e2d8eb400", "dec" : "0.07298901" , "orgdecbal": "0.14597802" },
@@ -75,14 +78,16 @@ You can check 1st Block in [Explorer](https://explorer.tao.foundation/block/1)
     for hex value same as dec.
     
    You can download converting scripts file in same folder, and do change and test it as your own ratio. .js and .bat
-   [teo-snapshot-parser-eth.js](https://github.com/tao-foundation/teo-material/blob/master/20181110-Mainnet-ETH-ETC-Snapshot/ETH-6660000-snapshot/converted/teo-snapshot-parser-eth.js)
+  
+  - [teo-snapshot-parser-eth.js](https://github.com/tao-foundation/teo-material/blob/master/20181110-Mainnet-ETH-ETC-Snapshot/ETH-6660000-snapshot/converted/teo-snapshot-parser-eth.js)
    
-   [teo-snapshot-parser-etc.js](https://github.com/tao-foundation/teo-material/blob/master/20181110-Mainnet-ETH-ETC-Snapshot/ETC-6880000-snapshot/converted/teo-snapshot-parser-etc.js)
+  - [teo-snapshot-parser-etc.js](https://github.com/tao-foundation/teo-material/blob/master/20181110-Mainnet-ETH-ETC-Snapshot/ETC-6880000-snapshot/converted/teo-snapshot-parser-etc.js)
     
+  
   #### Snapshot and Converted Total Accounts and Airdrop Funds.
   
-  ETH : Total Account : 3_382_839 , TEO : 8_770_022.271718781925032
-  ETC : Total Account : 195_832 , TEO : 347_924.937234909552956473
+    - ETH : Total Account : 3_382_839 , TEO : 8_770_022.271718781925032
+    - ETC : Total Account : 195_832 , TEO : 347_924.937234909552956473
 
 
 **In case of exchange who listing TEO , We will negotiate same calculation on their customer funds and bounty for funds for customer airdrop.**

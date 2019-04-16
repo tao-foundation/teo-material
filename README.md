@@ -2,7 +2,7 @@
  
  <hr>
  
- # **TEO** (**T**rust**E**TH re **O**rigin) Blockchain
+ # **TEO** (**T**rust **E**TH re **O**rigin) Blockchain
 <br>
  
 ## TEO (Proof of Work) blockchain is part of **TAO** Architectures.

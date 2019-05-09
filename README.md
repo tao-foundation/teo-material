@@ -9,8 +9,7 @@
 Following pdf document will explain , how to trade it.
 
 
-[TEO_Bisq_exchange_trade_user_manual](https://github.com/tao-foundation/tao-materials/blob/master/TEO%EA%B5%AC%EB%A7%A4_n_%ED%8C%90%EB%A7%A4%EA%B0%80%EC%9D%B4%EB%93%9C_v1.01.pdf)
-
+[TEO_Bisq_exchange_trade_user_manual](https://github.com/tao-foundation/tao-materials/blob/master/TEO_trade_on_p2p_bisq_usermanual_v1.1.pdf)
 Before trade, you can learn create wallet , how to send , how to receive, with https://wallet.tao.foundation .
 
 it is described well in TAO Korea Official forum : 

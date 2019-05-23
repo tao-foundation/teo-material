@@ -16,7 +16,7 @@
  
 <hr>
 
- ## Great NEWS , TEO Listed on Bisq.network P2P Exchange.
+ ## Great NEWS , TEO Listed on [Bisq.network](https://bisq.network) P2P Exchange.
  refer here.
  
  ## TEO - Bisq P2P Exchange trade user manual

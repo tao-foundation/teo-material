@@ -1,6 +1,21 @@
- # If you want to project history from TOP-down , first refer https://github.com/tao-foundation/tao-materials/ 
+## If you want to read project history from TOP-down , first refer https://github.com/tao-foundation/tao-materials/ 
  
- <hr>
+## Latest News on TAO FORUM [https://forum.tao.foundation]
+
+## Community instant chat on telegram [https://t.me/trustfarmblockchaintalk]
+
+<hr>
+
+ ## Great NEWS [2019/05/24] , TEO Listed on [STEX.COM](https://stex.com) Exchange.
+ You can trade TEO in STEX
+
+<hr>
+
+ ## Great NEWS [2019/05/19] , TEO Listed on [GRAVIEX.NET](https://Graviex.net) Exchange
+ You can trade TEO in GRAVIEX
+ 
+<hr>
+
  ## Great NEWS , TEO Listed on Bisq.network P2P Exchange.
  refer here.
  
